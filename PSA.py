@@ -2,11 +2,11 @@ import streamlit as st
 from zxcvbn import zxcvbn
 
 # This makes the website look professional
-st.set_page_config(page_title="Password Strength Tool", page_icon="🛡️")
+st.set_page_config(page_title="Password Strength Check", page_icon="🛡️")
 
 # --- MAIN PAGE ---
 st.title("🛡️ Is your password safe?")
-st.write("This tool checks how long a hacker's computer would take to guess your password.")
+st.write("You Can check how long a hacker would take to guess your password.")
 
 # Create the input box
 user_password = st.text_input("Type a password here:", type="password")
@@ -46,3 +46,4 @@ st.markdown("---") # This adds a thin horizontal line
 st.write("### Connect with me manojgolla2622@gmail.com")
 st.write("**Developed by: [Golla Manoj]**")
 st.write("Role: Aspiring SOC Analyst / Cybersecurity Specialist")
+
