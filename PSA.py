@@ -32,7 +32,7 @@ if user_password:
             st.write(f"* {tip}")
     else:
         st.write("Looking good! This password is hard to guess.")
-st.markdown("---") # This adds a thin horizontal line
+st.markdown("---") 
 st.write("### Connect with me manojgolla2622@gmail.com")
 st.write("**Developed by: [Golla Manoj]**")
 st.write("Role: Aspiring SOC Analyst / Cybersecurity Specialist")
