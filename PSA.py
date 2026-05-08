@@ -6,7 +6,7 @@ st.set_page_config(page_title="Password Strength Check", page_icon="🛡️")
 st.title("🛡️ Is your password safe?")
 st.write("You Can check how long a hacker would take to guess your password.")
 
-user_password = st.text_input("Type a password here:", type="password")
+user_password = st.text_input("Enter your password here:", type="password")
 
 if user_password:
     analysis = zxcvbn(user_password)
