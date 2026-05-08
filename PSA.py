@@ -32,8 +32,6 @@ if user_password:
             st.write(f"* {tip}")
     else:
         st.write("Looking good! This password is hard to guess.")
-
-# --- FOOTER SECTION (ADD YOUR NAME HERE) ---
 st.markdown("---") # This adds a thin horizontal line
 st.write("### Connect with me manojgolla2622@gmail.com")
 st.write("**Developed by: [Golla Manoj]**")
